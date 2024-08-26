@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jogomemoria.controllers.FormularioController">
+   <children>
+      <Label layoutX="6.0" layoutY="184.0" text="Nome:" textFill="#2200ff">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNome" layoutX="47.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 1">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label alignment="CENTER" layoutY="43.0" prefHeight="43.0" prefWidth="501.0" text="Jogo da memória" textFill="#2200ff">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnIniciar" layoutX="206.0" layoutY="384.0" mnemonicParsing="false" onAction="#mudarTela" prefHeight="31.0" prefWidth="105.0" text="Iniciar Jogo">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutY="148.0" prefHeight="30.0" prefWidth="244.0" text="Jogador Nº1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="273.0" layoutY="148.0" prefHeight="30.0" prefWidth="234.0" text="Jogador Nº2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="184.0" text="Nome:" textFill="#2200ff">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="250.0" prefHeight="30.0" prefWidth="244.0" text="Jogador Nº3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="273.0" layoutY="250.0" prefHeight="30.0" prefWidth="234.0" text="Jogador Nº4">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" layoutY="288.0" text="Nome:" textFill="#2200ff">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="288.0" text="Nome:" textFill="#2200ff">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNome1" layoutX="330.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 2">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtNome12" layoutX="47.0" layoutY="283.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 3">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtNome121" layoutX="330.0" layoutY="283.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 4">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+   </children>
+</AnchorPane>
