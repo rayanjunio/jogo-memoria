@@ -14,7 +14,7 @@
             <Font name="Arial Bold" size="13.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNome" layoutX="47.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 1">
+      <TextField fx:id="txtNome1" layoutX="47.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 1">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor>
@@ -67,17 +67,17 @@
             <Font name="Arial Bold" size="13.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNome1" layoutX="330.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 2">
+      <TextField fx:id="txtNome2" layoutX="330.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 2">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor>
       </TextField>
-      <TextField fx:id="txtNome12" layoutX="47.0" layoutY="283.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 3">
+      <TextField fx:id="txtNome3" layoutX="47.0" layoutY="283.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 3">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor>
       </TextField>
-      <TextField fx:id="txtNome121" layoutX="330.0" layoutY="283.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 4">
+      <TextField fx:id="txtNome4" layoutX="330.0" layoutY="283.0" prefHeight="26.0" prefWidth="166.0" promptText="Digite o nome do jogador 4">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor>

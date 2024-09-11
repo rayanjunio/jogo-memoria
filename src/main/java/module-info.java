@@ -1,4 +1,6 @@
 module com.example.jogomemoria {
+  opens com.example.jogomemoria.models to com.fasterxml.jackson.databind;
+  exports com.example.jogomemoria.models to com.fasterxml.jackson.databind;
   requires javafx.controls;
   requires javafx.fxml;
   requires javafx.web;
@@ -10,6 +12,7 @@ module com.example.jogomemoria {
   requires org.kordamp.bootstrapfx.core;
   requires eu.hansolo.tilesfx;
   requires com.almasb.fxgl.all;
+  requires com.fasterxml.jackson.databind;
 
   opens com.example.jogomemoria to javafx.fxml;
   exports com.example.jogomemoria;
