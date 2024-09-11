@@ -1,4 +1,5 @@
 module com.example.jogomemoria {
+  opens com.example.jogomemoria.models to com.fasterxml.jackson.databind;
   exports com.example.jogomemoria.models to com.fasterxml.jackson.databind;
   requires javafx.controls;
   requires javafx.fxml;
