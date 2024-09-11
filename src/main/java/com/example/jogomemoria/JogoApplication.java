@@ -11,7 +11,7 @@ import java.io.IOException;
 public class JogoApplication extends Application {
   @Override
   public void start(Stage stage) throws IOException {
-    Parent parent = new FXMLLoader(JogoApplication.class.getResource("jogo.fxml")).load();
+    Parent parent = new FXMLLoader(JogoApplication.class.getResource("formulario.fxml")).load();
     Scene scene = new Scene(parent);
     stage.setScene(scene);
     stage.setTitle("Jogo da Memória");
