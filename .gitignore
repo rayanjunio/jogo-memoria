@@ -8,6 +8,8 @@
 out/
 /target/
 
+/src/main/resources/dados-jogadores/jogadores.json
+
 # Package Files #
 *.jar
 *.war
