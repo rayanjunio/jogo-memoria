@@ -26,8 +26,6 @@ public class FormularioController {
   private TextField txtNome3;
   @FXML
   private TextField txtNome4;
-  @FXML
-  private Button btnIniciar;
 
   private ArrayList<JogadorModel> jogadoresList = new ArrayList<>();
 
