@@ -33,7 +33,6 @@ public class FormularioController {
 
   public void salvarJogador() {
     jogadorServico.salvarDados(this.jogadoresList);
-    System.out.println("oii");
   }
 
   @FXML
