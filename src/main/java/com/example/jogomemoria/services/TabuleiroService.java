@@ -55,13 +55,10 @@ public class TabuleiroService {
   }
 
   private void virarCarta(Carta carta) {
-    if (cartasViradas.contains(carta)) {
+    if (cartasViradas.contains(carta) || parAtual.contains(carta)) {
       return;
     }
     if (parAtual.size() < 2) {
-      if (carta.isMostrandoFrente()) {
-        return;
-      }
       carta.mostrarFrente();
       parAtual.add(carta);
 
