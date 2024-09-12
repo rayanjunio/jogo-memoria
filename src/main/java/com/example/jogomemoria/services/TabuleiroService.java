@@ -77,7 +77,6 @@ public class TabuleiroService {
       cartasViradas.add(carta2);
       pontuar();
       parAtual.clear();
-      System.out.println(jogadorAtual);
       if (cartasViradas.size() == 16) {
         alertaGanhador();
         reiniciarJogo();

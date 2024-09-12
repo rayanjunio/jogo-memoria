@@ -23,11 +23,8 @@ public class JogadorServico {
       String json = writer.writeValueAsString(jogadoresList);
       out.println(json);
       out.close();
-
-      System.out.println("funcionou");
     } catch (Exception e) {
       e.printStackTrace();
-      System.out.println("erro");
     }
   }
 
@@ -39,7 +36,6 @@ public class JogadorServico {
       if(file.exists() && file.length() > 0) {
         jogadoresList = mapper.readValue(file, new TypeReference<>() {
         });
-        System.out.println(jogadoresList);
       }
     } catch (Exception e) {
       e.printStackTrace();
@@ -60,11 +56,8 @@ public class JogadorServico {
       String json = writer.writeValueAsString(jogadoresList);
       out.println(json);
       out.close();
-
-      System.out.println("funcionou2");
     } catch (Exception e) {
       e.printStackTrace();
-      System.out.println("erro3");
     }
   }
 }
